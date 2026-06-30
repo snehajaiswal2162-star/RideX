@@ -188,7 +188,7 @@ const Page = () => {
                   whileTap={{scale:0.95}}
                   onClick={()=>getNearByVehicle(pickupLat,pickupLon,vehicle)}
                   className='mt-5 flex items-center gap-2 bg-zinc-900 text-white text-sm font-semibold px-6 py-2.5 rounded-xl hover:bg-zinc-800 transition-colors cursor-pointer'
-                  > <RefreshCcw size={15}/> Retry Searching... </motion.button>
+                  > <RefreshCcw size={15}/> Refresh </motion.button>
                 </motion.div>
               )}
               </AnimatePresence>
