@@ -1,12 +1,10 @@
 {
   "name": "socketserver",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
@@ -14,7 +12,6 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.6.3",
-    "nodemon": "^3.1.14",
     "socket.io": "^4.8.3"
   }
 }
